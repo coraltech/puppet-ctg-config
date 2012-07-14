@@ -17,20 +17,20 @@
   "allow_icmp" : "true",
   "email_servers" : [
     {
-      "host" : "<EMAIL SERVER HOSTNAME HERE>",
-      "user" : "<EMAIL ADDRESS HERE>",
-      "password" : "<EMAIL ACCOUNT PASSWORD HERE>"
+      "host" : "secure.emailsrvr.com",
+      "user" : "admin@coraltg.com",
+      "password" : "!C0r4lTG%"
     }
   ],
-  "git_root_email" : "<YOUR EMAIL ADDRESS HERE>",
-  "git_skel_email" : "<YOUR EMAIL ADDRESS HERE>",
+  "git_root_email" : "admin@coraltech.net",
+  "git_skel_email" : "admin@coraltech.net",
   "locales" : [ "en_US.UTF-8 UTF-8" ],  
   "user_umask" : "002",
   "admin_name" : "admin",
   "admin_group" : "admin",
   "admin_editor" : "vim",
-  "admin_email" : "<YOUR EMAIL ADDRESS HERE>",
-  "admin_allowed_ssh_key" : "<YOUR PUBLIC KEY HERE>",
+  "admin_email" : "admin@coraltech.net",
+  "admin_allowed_ssh_key" : "AAAAB3NzaC1yc2EAAAABIwAAAQEA3BgTb8APsxLWfabSP/Ig7ExnUCNKqBcZIQRfxY5dCM8W+GZvUhU/6HEjMnyyvlbkTX8YgZFNEF3a5iEAx+OfSB5vWV/K3YiP0nptptgXLpCl7cacpxsPbOzMEIOiaXt8ZpP3NLQ3hPkl45gSKllOxs2Yulx17kRa9WUlDaCP0w0eEAhgMSZuwZgXIWd23XXEEJ2Ic5OfeBzcYqHDSQtPlboJvdfX5ludfoLeazpGTMIfNOwj9ExM1xA+NDjnwepKlXn0Q+4la9zXCKof5UNDmwuIy2Z20uMTgK3z2lD0PK/hGyZaPmVuPwhmG47dTLFFukvjgMNbx0QqjyGt5CYcdw==",
   "admin_allowed_ssh_key_type" : "rsa",
   "admin_public_ssh_key" : "",
   "admin_private_ssh_key" : "",
@@ -47,7 +47,9 @@
   "puppet_update_interval" : "30",
   "reports" : "log,store,tagmail",
   "report_path" : "/var/log/puppet/reports",
-  "report_emails" : {},
+  "report_emails" : {
+    "admin@coraltech.net" : "all"
+  },
   "haproxy_user" : "haproxy",
   "haproxy_group" : "haproxy",
   "haproxy_debug" : "false",
